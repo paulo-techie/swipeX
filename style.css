@@ -83,7 +83,7 @@ img {
     font-size: x-large;
 }
 
-.fa-arrow-up {
+.message-footer a, .fa-arrow-up {
     background-color: #4E50B8;
     border-radius: 15%;
     color: #fff;
@@ -138,8 +138,12 @@ img {
 .message-container input {
     border: 1px solid #ddd;
     border-radius: 5%;
-    color: #ddd;
-    padding-left: 40%;
+    color: #aaa;
+    padding-left: 4%;
+    padding-right: 36%;
+    background-image: url('https://www.stephenwadechryslerdodgejeep.com/wp-content/plugins/pm-motors-plugin/modules/vehicle_save/images/check.png');
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
 
