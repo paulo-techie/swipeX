@@ -9,6 +9,11 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 .container {
     background-color:#fff;
     border-radius: 5%;
@@ -20,7 +25,8 @@ ul {
     padding: 0;
 }
 
-header {
+header, 
+footer {
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -78,11 +84,17 @@ img {
     font-size: x-large;
 }
 
-.fa-bars {
+.fa-arrow-up,
+.fa-paperclip {
+}
+
+.fa-bars,
+.top-left {
     margin-left: 0;
 }
 
-.fa-bell {
+.fa-bell,
+.top-right {
     margin-right: 0;
 }
 
@@ -111,6 +123,18 @@ img {
     font-size: 250%;
 }
 
+.message-container {
+    width: 80%;
+}
+
+.message-container input {
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    color: #ddd;
+    padding-left: 40%;
+
+}
+
 .name-row {
     display: flex;
     justify-content: space-between;
@@ -130,7 +154,7 @@ img {
 
 .thumbnails img {
     margin: 2%;
-    opacity: 40%;
+    opacity: 25%;
 }
 
 .thumbnails .thumb-gugu,
