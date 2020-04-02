@@ -4,7 +4,7 @@ A mobile dating app!
 
 ![screenshot](./images/screenshot.png)
 
-This is a capstone project that demonstrates the ability to build and customize a HTML/CSS page from a UX design and stylistic template.
+This is a capstone project that demonstrates the ability to build and customize a HTML/CSS page from a UX design and stylistic template: [UX Template](https://www.behance.net/gallery/70285515/Swipex-This-application-for-dating)
 
 ## Built With
 
