@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:#4E50B8;
+    background-color: #4e50b8;
     width: 360px;
     margin: auto;
 }
@@ -14,7 +14,7 @@ a {
 }
 
 .container {
-    background-color:#fff;
+    background-color: #fff;
     border-radius: 5%;
     padding: 3%;
 }
@@ -24,7 +24,7 @@ ul {
     padding: 0;
 }
 
-header, 
+header,
 .message-footer {
     margin: auto;
     display: flex;
@@ -32,12 +32,12 @@ header,
 }
 
 img {
-    width: 100%;
+    border-radius: 3%;
     height: 100%;
+    width: 100%;
 }
 
 main {
-
     overflow: hidden;
     margin: auto;
 }
@@ -50,7 +50,7 @@ main ul {
 }
 
 h1 {
-    color: #4E50B8;
+    color: #4e50b8;
 }
 
 li {
@@ -59,11 +59,7 @@ li {
 
 
 span {
-    color: #F0916E;
-}
-
-img {
-    border-radius: 3%;
+    color: #f0916e;
 }
 
 .bottom-row {
@@ -76,15 +72,17 @@ img {
     margin: auto;
 }
 
-.fa-less-than, .fa-greater-than {
+.fa-less-than,
+.fa-greater-than {
     background-color: #fff;
     border: #eee solid 1px;
     border-radius: 20%;
     font-size: x-large;
 }
 
-.message-footer a, .fa-arrow-up {
-    background-color: #4E50B8;
+.message-footer a,
+.fa-arrow-up {
+    background-color: #4e50b8;
     border-radius: 15%;
     color: #fff;
     padding: 2%;
@@ -108,12 +106,12 @@ img {
 
 .fa-gift {
     margin: 2.5% 5%;
-    color: #4E50B8;
+    color: #4e50b8;
     font-size: xx-large;
 }
 
 .fa-heart {
-    background-color: #4E50B8;
+    background-color: #4e50b8;
     color: #fff;
 }
 
@@ -122,7 +120,7 @@ img {
 }
 
 .fa-times {
-    background-color: #F0916E;
+    background-color: #f0916e;
     color: #fff;
     font-size: 175%;
 }
@@ -152,6 +150,7 @@ img {
 .selector {
     margin: -7.5% auto auto;
 }
+
 .selector .fas {
     padding: 25%;
 }
@@ -168,8 +167,7 @@ img {
 
 .thumbnails .thumb-gugu,
 .thumbnails .thumb-scarl,
-.thumbnails .thumb-emily
- {
+.thumbnails .thumb-emily {
     opacity: 100%;
 }
 
