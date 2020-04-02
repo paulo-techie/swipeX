@@ -13,7 +13,6 @@ a {
     text-decoration: none;
 }
 
-
 .container {
     background-color:#fff;
     border-radius: 5%;
@@ -26,7 +25,7 @@ ul {
 }
 
 header, 
-footer {
+.message-footer {
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -84,8 +83,17 @@ img {
     font-size: x-large;
 }
 
-.fa-arrow-up,
+.fa-arrow-up {
+    background-color: #4E50B8;
+    border-radius: 15%;
+    color: #fff;
+    padding: 2%;
+}
+
 .fa-paperclip {
+    font-size: large;
+    margin-right: 2%;
+    color: #ddd;
 }
 
 .fa-bars,
@@ -168,4 +176,8 @@ img {
     color: #888;
     font-size: small;
     margin-bottom: -3%;
+}
+
+#message {
+    height: 33px;
 }
