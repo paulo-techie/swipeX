@@ -141,10 +141,7 @@ img {
     color: #aaa;
     padding-left: 4%;
     padding-right: 36%;
-    background-image: url('https://www.stephenwadechryslerdodgejeep.com/wp-content/plugins/pm-motors-plugin/modules/vehicle_save/images/check.png');
-    background-repeat: no-repeat;
-    background-position: right;
-
+    background-color: #eee;
 }
 
 .name-row {
