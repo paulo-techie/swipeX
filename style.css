@@ -5,8 +5,8 @@
 
 body {
     background-color: #4e50b8;
-    height: 720px;
-    width: 360px;
+    min-height: max-content;
+    max-width: max-content;
     margin: auto;
 }
 
