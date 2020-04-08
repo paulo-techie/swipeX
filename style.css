@@ -189,7 +189,7 @@ span {
     margin: 0;
 }
 
-.thumbnails img {
+.thumbnails a {
     margin: 2%;
     opacity: 25%;
 }
