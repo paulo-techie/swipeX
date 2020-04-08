@@ -15,13 +15,14 @@ a {
 }
 
 footer {
-    margin-top: 5%;
+    margin: 3%;
+    margin-top: 15%;
 }
 
 .container {
     background-color: #fff;
     border-radius: 2.5%;
-    padding: 3%;
+    padding: 0;
 }
 
 ul {
@@ -43,7 +44,10 @@ img {
 }
 
 main {
-    margin: auto;
+    /* background-image: url(images/scarlett.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    height: 512px;
 }
 
 main ul {
@@ -82,6 +86,13 @@ span {
     border-radius: 5%;
     font-size: 425%;
     margin: 20% auto;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    top: -17%;
+    left: 2%;
+    
 }
 
 .fa-less-than,
@@ -139,6 +150,11 @@ span {
     color: #fff;
     font-size: 495%;
 }
+
+/* .full-img {
+    margin: -2%;
+    padding: 0;
+} */
 
 .fa-times:hover {
     font-size: 525%;
