@@ -36,7 +36,7 @@ header,
     justify-content: space-between;
 }
 
-img {
+main img {
     border-radius: 3%;
     height: 100%;
     width: 100%;
@@ -73,6 +73,7 @@ span {
 }
 
 .caption {
+    background-color: #fff;
     width: 65%;
     margin: auto;
 }
@@ -188,7 +189,8 @@ span {
     margin: 0;
 }
 
-.thumbnails img {
+
+.thumbnails a {
     margin: 2%;
     opacity: 25%;
 }
