@@ -36,7 +36,7 @@ header,
     justify-content: space-between;
 }
 
-main img {
+img {
     border-radius: 3%;
     height: 100%;
     width: 100%;
@@ -189,8 +189,7 @@ span {
     margin: 0;
 }
 
-
-.thumbnails a {
+.thumbnails img {
     margin: 2%;
     opacity: 25%;
 }
