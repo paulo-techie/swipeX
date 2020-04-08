@@ -44,9 +44,6 @@ img {
 }
 
 main {
-    /* background-image: url(images/scarlett.jpg);
-    background-repeat: no-repeat;
-    background-size: contain; */
     height: 512px;
 }
 
@@ -88,11 +85,9 @@ span {
     margin: 20% auto;
 }
 
-.fa-arrow-left {
+.arrow-left {
     position: absolute;
-    top: -17%;
-    left: 2%;
-    
+    left: 2%;   
 }
 
 .fa-less-than,
@@ -151,13 +146,12 @@ span {
     font-size: 495%;
 }
 
-/* .full-img {
-    margin: -2%;
-    padding: 0;
-} */
-
 .fa-times:hover {
     font-size: 525%;
+}
+
+.high-light {
+    color: #f0916e;
 }
 
 .message-container {
@@ -198,6 +192,17 @@ span {
 
 .selector .fas {
     padding: 25%;
+}
+
+.square-bars {
+    color: #414464;
+    display: flex;
+    flex-direction: column;
+    right: 3%;
+    top: 3%;
+    position: absolute;
+    font-size: xx-small;
+
 }
 
 .thumbnails {
