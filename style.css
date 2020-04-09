@@ -19,6 +19,12 @@ footer {
     margin-top: 15%;
 }
 
+hr {
+    border: #ccc solid .001em;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     background-color: #fff;
     border-radius: 2.5%;
@@ -57,7 +63,7 @@ main ul {
 .logo {
     color: #4e50b8;
     font-size: 500%;
-    margin-top: 0;
+    margin: 0;
 }
 
 li {
@@ -69,14 +75,27 @@ span {
     color: #f0916e;
 }
 
+.bottom-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-icons .fas {
+    color: #aaa;
+}
+
 .bottom-row {
     display: flex;
 }
 
 .caption {
     background-color: #fff;
-    width: 65%;
-    margin: auto;
+    border-radius: 5%;
+    border: 1px solid #eee;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 85%;
 }
 
 .fas {
@@ -187,7 +206,7 @@ span {
 }
 
 .selector {
-    margin: -7.5% auto auto;
+    margin: 5% 5%;
 }
 
 .selector .fas {
