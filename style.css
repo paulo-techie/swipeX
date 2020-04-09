@@ -6,8 +6,8 @@
 body {
     background-color: #4e50b8;
     min-height: max-content;
-    max-width: max-content;
-    margin: 1%;
+    max-width: 1280px;
+    margin: auto;
 }
 
 a {
@@ -60,6 +60,7 @@ main ul {
     padding: 0;
 }
 
+
 .logo {
     color: #4e50b8;
     font-size: 500%;
@@ -78,24 +79,32 @@ span {
 .bottom-icons {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .bottom-icons .fas {
     color: #aaa;
+    margin: 0;
+    padding: 5%;
 }
 
 .bottom-row {
     display: flex;
 }
 
+.main-img {
+    padding-bottom: 15%;
+}
+
 .caption {
-    background-color: #fff;
+    background-color: #eee;
     border-radius: 5%;
     border: 1px solid #eee;
+    border-top: 5px solid #4e50b8; 
     width: 50%;
-    position: absolute;
+    position: relative;
     left: 25%;
-    top: 85%;
 }
 
 .fas {
@@ -169,8 +178,30 @@ span {
     font-size: 525%;
 }
 
+.fa-user-plus {
+    color: #f0916e;
+    position: relative;
+    transform: rotateY(180deg);
+    margin: 0;
+    margin-top: -100%;
+    margin-left: 65%;
+    font-size: 250%;
+}
+
 .high-light {
     color: #f0916e;
+}
+
+.main-img,
+.desc,
+.selector {
+    margin: 1% 3%;
+}
+
+.learn-more {
+    color: #aaa;
+    margin: 2%;
+    text-align: center;
 }
 
 .message-container {
@@ -205,12 +236,12 @@ span {
     margin-top: 3%;
 }
 
-.selector {
-    margin: 5% 5%;
-}
-
 .selector .fas {
     padding: 25%;
+}
+
+.selector {
+    height: 20px;
 }
 
 .square-bars {
