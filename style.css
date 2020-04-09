@@ -43,6 +43,10 @@ header,
     justify-content: space-between;
 }
 
+header {
+    height: 100px;
+}
+
 img {
     border-radius: 3%;
     height: 100%;
@@ -97,6 +101,40 @@ span {
     padding-bottom: 15%;
 }
 
+.main-msg {
+    background: #eee;
+    margin: 3%;
+
+}
+
+.msg-detail {
+    flex: 1;
+    padding: 2%;
+    
+}
+
+.msg-thread {
+    background-color: #fff;
+    display: flex;
+    margin: 3%;
+}
+
+.msg-thread img {
+    margin: 3%;
+    width: 15%;
+}
+
+.thread-title {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom-icons .msg-comments {
+    color: #f0916e;
+}
+
 .caption {
     background-color: #eee;
     border-radius: 5%;
@@ -141,16 +179,21 @@ span {
     color: #ddd;
 }
 
-.fa-bars,
 .top-left {
     margin-left: 0;
     margin-top: 0;
 }
 
-.fa-bell,
 .top-right {
     margin-right: 0;
     margin-top: 0;
+}
+
+.fa-edit,
+.fa-bell,
+.fa-bars {
+    color: #aaa;
+    margin: auto 3%;
 }
 
 .fa-gift {
@@ -185,7 +228,7 @@ span {
     margin: 0;
     margin-top: -100%;
     margin-left: 65%;
-    font-size: 250%;
+    font-size: 220%;
 }
 
 .high-light {
