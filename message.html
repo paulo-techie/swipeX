@@ -11,14 +11,40 @@
 <body>
     <div class="container">
     <header>
-        <p><a href="index.html"><i class="top-left fas fa-arrow-left"></i></a><p>
-        <h3>Message</h3>
-        <p><a href="#"><i class="top-right fas fa-phone"></i></a></p>
+        <div class="arrow-left">
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+        </div>
+        <h2>Message</h2>
+        <div class="square-bars">
+            <i class="fas fa-phone"></i>
+        </div>
     </header>
-    <main>
-        <img src="images/msg.jpg" alt="message thread">
+    <main class="main-msg">
+        <div class="box-right">
+            <p class="msg-right">Today I think go for a walk and then go home.</p>
+            <p class="msg-time">1:16 PM</p>
+        </div>
+        <div class="box-left">
+            <p class="msg-left">Where are you exactly going for a walk?</p>
+            <p class="msg-time">1:16 PM</p>
+        </div>
+        <div class="box-left ms-img">
+            <img src="images/rabbit.png" alt="emoji">
+            <p class="msg-time">1:16 PM</p>
+        </div>
+        <div class="box-right">
+            <p class="msg-right">I want to go to the park, do you want to go with me?</p>
+            <p class="msg-time">1:16 PM</p>
+        </div>
+        <div class="box-left msg-img">
+            <img src="images/map.png" alt="map">
+            <div class="map-time">
+                <p class="msg-map">Soho Square, London</p>
+                <p class="msg-time">1:16 PM</p>
+            </div>
+        </div>
     </main>
-    <div class="message-footer">
+    <footer class="bottom-icons">
         <i class="fas fa-paperclip"></i>
         <div class="message-container"> 
             <form action="#">
@@ -26,8 +52,8 @@
             <input type="text" id="message" name="message" value="Your message">
           </form> 
         </div>
-        <a href="#"><i class="fas fa-arrow-up"></i></a>
+        <a class="arrow-u" href="#"><i class="fas fa-arrow-up"></i></a>
+    </footer>
     </div>
-</div>
 </body>
 </html>
