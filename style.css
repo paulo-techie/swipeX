@@ -1,10 +1,31 @@
 @media only screen and (max-width: 414px) {
+    .caption {
+        font-size: small;
+    }
+
     .logo {
         font-size: xx-large !important;
     }
 
     .fas {
-        font-size: 225% !important;
+        font-size: 200% !important;
+    }
+
+    .fa-user-plus {
+        font-size: large !important;
+    }
+
+    .message-container {
+        padding-bottom: -5%;
+    }
+
+    .message-container input {
+        margin: 0 -10% !important;
+        width: 110% !important;
+    }
+
+    #message {
+        height: 10% !important;
     }
 }
 
@@ -247,7 +268,7 @@ span {
 .arrow-left,
 .square-bars {
     color: #aaa;
-    margin: auto 3%;
+    margin: auto 2%;
 }
 
 .fa-gift {
