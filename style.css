@@ -70,10 +70,6 @@ img {
     width: 100%;
 }
 
-main {
-
-}
-
 main ul {
     display: flex;
     justify-content: space-evenly;
@@ -160,10 +156,6 @@ span {
     text-align: right;
 }
 
-.main-img {
-    padding-bottom: 15%;
-}
-
 .main-msg {
     background: #eee;
     margin: 3%;
@@ -199,6 +191,11 @@ span {
     color: #f0916e;
 }
 
+.full-img {
+    margin-top: -20%;
+    z-index: -99;
+}
+
 .caption {
     background-color: #eee;
     border-radius: 5%;
@@ -207,12 +204,14 @@ span {
     width: 50%;
     position: relative;
     left: 25%;
+    margin-top: -10%;
 }
 
 .fas {
     border-radius: 5%;
     font-size: 425%;
     margin: 20% auto;
+    z-index: 99;
 }
 
 .arrow-left {
