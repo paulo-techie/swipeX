@@ -1,16 +1,16 @@
 @media only screen and (max-width: 414px) {
     .logo {
-      font-size: xx-large !important;
+        font-size: xx-large !important;
     }
 
     .fas {
         font-size: 225% !important;
     }
-  }
+}
 
 * {
     color: #414464;
-    font-family: Helvetica Neue,'Montserrat', sans-serif;
+    font-family: Helvetica Neue, 'Montserrat', sans-serif;
 }
 
 body {
@@ -34,7 +34,7 @@ footer a {
 }
 
 hr {
-    border: #ccc solid .001em;
+    border: #ccc solid 0.001em;
     padding: 0;
     margin: 0;
 }
@@ -60,9 +60,6 @@ header {
     justify-content: space-between;
 }
 
-header {
-    height: 100px;
-}
 
 img {
     border-radius: 3%;
@@ -93,6 +90,13 @@ span {
     color: #f0916e;
 }
 
+.fas {
+    border-radius: 5%;
+    font-size: 425%;
+    margin: 20% auto;
+    z-index: 99;
+}
+
 .bottom-icons {
     display: flex;
     justify-content: space-between;
@@ -108,6 +112,7 @@ span {
 
 .bottom-icons a {
     padding-top: %;
+    margin: 0;
 }
 
 .bottom-row {
@@ -134,7 +139,7 @@ span {
     margin-top: 5%;
 }
 
-.msg-time, 
+.msg-time,
 .msg-map {
     color: #aaa;
     margin: 0;
@@ -159,14 +164,11 @@ span {
 .main-msg {
     background: #eee;
     margin: 3%;
-    /* height: 80%; */
-
 }
 
 .msg-detail {
     flex: 1;
     padding: 2%;
-    
 }
 
 .msg-thread {
@@ -200,22 +202,15 @@ span {
     background-color: #eee;
     border-radius: 5%;
     border: 1px solid #eee;
-    border-top: 5px solid #4e50b8; 
+    border-top: 5px solid #4e50b8;
     width: 50%;
     position: relative;
     left: 25%;
     margin-top: -10%;
 }
 
-.fas {
-    border-radius: 5%;
-    font-size: 425%;
-    margin: 20% auto;
-    z-index: 99;
-}
-
 .arrow-left {
-    float: left; 
+    float: left;
 }
 
 .fa-less-than,
@@ -240,14 +235,10 @@ span {
     color: #ddd;
 }
 
-.bottom-icons a {
-    margin: 0;
-}
-
 .fa-edit,
 .fa-bell,
-.fa-bars, 
-.arrow-left, 
+.fa-bars,
+.arrow-left,
 .square-bars {
     color: #aaa;
     margin: auto 3%;
@@ -304,7 +295,7 @@ span {
     text-align: center;
 }
 
-.message-container, 
+.message-container,
 .message-img {
     margin: auto;
 }
@@ -319,13 +310,13 @@ span {
     background-color: #eee;
 }
 
-.name-row, 
+.name-row,
 .name-row-title {
     display: flex;
     justify-content: space-between;
 }
 
-.name-row, 
+.name-row,
 .desc {
     margin-top: 1.5%;
 }
