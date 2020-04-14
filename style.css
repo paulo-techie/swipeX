@@ -1,3 +1,17 @@
+@media only screen and (min-width: 1024px) {
+    .caption {
+        font-size: small;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    .side-bar {
+        width: 25%;
+    }
+}
+
 @media only screen and (max-width: 414px) {
     .caption {
         font-size: small;
@@ -38,7 +52,6 @@ body {
     background-color: #4e50b8;
     min-height: max-content;
     margin: auto;
-    max-width: 800px;
 }
 
 a {
@@ -68,6 +81,8 @@ h2 {
     background-color: #fff;
     border-radius: 2.5%;
     padding: 0;
+    max-width: 800px;
+    margin: auto;
 }
 
 ul {
@@ -408,3 +423,11 @@ span {
     height: 50px;
     width: 270%;
 }
+
+.navbar,
+.top-left-nav,
+.top-right-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
