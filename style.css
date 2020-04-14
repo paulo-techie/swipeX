@@ -1,6 +1,10 @@
 @media only screen and (min-width: 1024px) {
+
+    .bottom-icons {
+        display: none !important;
+    }
     .caption {
-        font-size: small;
+        display: none !important;
     }
 
     header {
@@ -9,10 +13,23 @@
 
     .side-bar {
         flex: 1;
+        margin: 1%;
     }
 
     .container {
-        flex: 3;
+        border-radius: 1% !important; 
+        flex: 2;
+        max-width: max-content !important;
+        margin: 1% !important;
+    }
+
+    .top-left-nav p,
+    .top-right-nav p,
+    .fas, 
+    .far {
+        font-size: large !important;
+        margin: auto 5% !important;
+      
     }
 }
 
@@ -428,12 +445,22 @@ span {
     width: 270%;
 }
 
+.side-bar-profile,
 .desktop-main,
 .navbar,
 .top-left-nav,
 .top-right-nav {
     display: flex;
     justify-content: space-between;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.desktop-main {
+    background: #eee;
+    padding: 1%;
 }
 
 .desktop {
