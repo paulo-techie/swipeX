@@ -8,7 +8,11 @@
     }
 
     .side-bar {
-        width: 25%;
+        flex: 1;
+    }
+
+    .container {
+        flex: 3;
     }
 }
 
@@ -424,6 +428,7 @@ span {
     width: 270%;
 }
 
+.desktop-main,
 .navbar,
 .top-left-nav,
 .top-right-nav {
@@ -431,3 +436,7 @@ span {
     justify-content: space-between;
 }
 
+.desktop {
+    display: flex;
+    flex-direction: column;
+}
