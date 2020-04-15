@@ -33,7 +33,7 @@
     .top-right-nav p,
     .fas, 
     .far {
-        font-size: large !important;
+        font-size: larger !important;
         margin: auto 2% !important;    
     }
 
@@ -77,7 +77,7 @@
 
     .navbar h2 {
         color: #4e50b8;
-        font-size: x-larger;
+        font-size: 250%;
         margin-top: 1% !important;
         margin-bottom: 1%;
     }
@@ -113,25 +113,30 @@
 
     .pname {
         color: #4e50b8 !important;
+        font-size: 120%;
     } 
 
     .pstatus {
         color: #999;
+        line-height: 140%;
     }
 
     .side-bar-profile {
         display: flex;
         flex-direction: column;
+        font-size: small;
         margin: 2%;
     }
 
     .side-bar-profile-top {
         display: flex;
+        justify-content: space-between;
     }
 
     .side-bar-profile-bottom {
         display: flex;
-        margin: 15%;
+        margin: auto 15%;
+        justify-content: space-evenly;
 
     }
 
@@ -143,11 +148,66 @@
     .side-bar-list li {
         color: #999;
         margin: 2%;
-        line-height: 250%;
-    
+        line-height: 180%;
+        display: flex;
+        justify-content: space-between;
     }
 
+    .side-bar-list span {
+        color: #999;
+        font-size: large;
+        font-weight: 500;
+    }
 
+    .side-bar-list div {
+        background: #f0916e;
+        border-radius: 10%;
+        color: #fff;
+        font-size: small;
+        margin: auto 0;
+        padding: 0 4%;
+    }
+
+    .live-channels {
+        background: #eee !important;
+        color: #888 !important;
+    }
+
+    .get-premium {
+        background: #4e50b8;
+        border-radius: 5%;
+        color: #fff !important;
+        width: 55%;
+        padding: 2% 0;
+        padding-left: 15%;
+    }
+
+    .fa-check-circle {
+        color: #fff;
+    }
+
+    .side-bar-profile-bottom .fa-heart {
+        color: #f0916e;
+        background: #fff;
+    }
+
+    .love-count {
+        padding-top: 2%;
+    }
+
+    .fa-cog {
+        color: #999;
+        font-size: x-large !important;
+        padding-left: 10%;
+    }
+
+    .vl {
+        border-left: 2px solid #888;
+    }
+
+    .fa-map-marker-alt {
+        padding-left: 5%;
+    }
 }
 
 @media only screen and (max-width: 414px) {
