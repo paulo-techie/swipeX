@@ -1,7 +1,14 @@
+@media only screen and (max-width: 1024px) {
+    .selector-full {
+        display: none !important;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     .bottom-icons {
         display: none !important;
     }
+
     .caption {
         display: none !important;
     }
@@ -10,14 +17,14 @@
         display: none !important;
     }
 
-    .side-bar, 
+    .side-bar,
     .side-bar-right {
         flex: 1;
         margin: 1%;
     }
 
     .container {
-        border-radius: 1% !important; 
+        border-radius: 1% !important;
         flex: 2;
         max-width: max-content !important;
         margin: 1% !important;
@@ -32,10 +39,10 @@
     .top-left-nav p,
     .top-right-nav,
     .top-right-nav p,
-    .fas, 
+    .fas,
     .far {
         font-size: larger !important;
-        margin: auto 2% !important;    
+        margin: auto 2% !important;
     }
 
     .top-right-nav i,
@@ -46,12 +53,12 @@
 
     .top-left-nav,
     .top-right-nav {
-    width: 12.5%;
+        width: 12.5%;
     }
 
     .side-bar,
     .side-bar-right,
-    .navbar, 
+    .navbar,
     .side-bar-profile {
         background: #fefefe;
         opacity: 100% !important;
@@ -71,16 +78,16 @@
     }
 
     .side-bar-profile-bottom {
-        justify-content: space-between;
         margin: 2% !important;
         padding: 0;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .side-bar-profile-bottom div {
         display: flex;
         margin: 0;
         justify-content: stretch;
-
     }
 
     .navbar h2 {
@@ -103,7 +110,7 @@
         background: #eee;
         padding: 1%;
     }
-    
+
     .desktop {
         display: flex;
         flex-direction: column;
@@ -115,14 +122,10 @@
         margin: 2%;
     }
 
-    .side-bar-profile-top {
-        line-height: 70%;
-    }
-
     .pname {
         color: #4e50b8 !important;
         font-size: 120%;
-    } 
+    }
 
     .pstatus {
         color: #999;
@@ -139,14 +142,8 @@
     .side-bar-profile-top {
         display: flex;
         justify-content: space-between;
+        line-height: 70%;
         margin: 2%;
-    }
-
-    .side-bar-profile-bottom {
-        display: flex;
-        margin: auto 15%;
-        justify-content: space-evenly;
-
     }
 
     .side-bar-list {
@@ -240,14 +237,13 @@
         border-bottom: 1px solid #aaa;
     }
 
-    .selector {
+    .selector-full {
         display: flex;
         justify-content: space-between;
         margin: 10%;
         margin-top: -13% !important;
         font-size: xx-large;
     }
-    
 }
 
 @media only screen and (max-width: 414px) {
@@ -613,11 +609,13 @@ span {
     margin-top: 4%;
 }
 
-.selector {
+.selector,
+.selector-full {
     margin-top: -5%;
 }
 
 .selector-caption .fas,
+.selector-full .fas,
 .selector .fas {
     padding: 25%;
 }
