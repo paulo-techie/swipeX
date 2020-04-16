@@ -28,6 +28,7 @@
         flex: 2;
         max-width: max-content !important;
         margin: 1% !important;
+        min-height: 100%;
     }
 
     .top-left-nav p,
