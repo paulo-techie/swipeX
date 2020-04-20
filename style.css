@@ -1,10 +1,17 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
+
+    .desktop-msg-side, .bottom-msg2, .bottom-icons2, .desktop-bar2 {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 801px) {
     .selector-full {
         display: none !important;
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 801px) {
     .bottom-icons {
         display: none !important;
     }
@@ -30,6 +37,12 @@
         margin: 1% !important;
         min-height: 100%;
     }
+
+    .container2 {
+        height: 50% !important;
+        max-width: 50% !important;
+    }
+
 
     .top-left-nav p,
     .top-left-nav strong,
@@ -276,6 +289,7 @@
     #message {
         height: 10% !important;
     }
+
 }
 
 * {
@@ -414,7 +428,7 @@ span {
     color: #aaa;
     margin: 0;
     padding: 0;
-    font-size: 90%;
+    font-size: 85%;
     text-align: right;
 }
 
@@ -513,6 +527,10 @@ span {
     color: #ddd;
 }
 
+.fa-phone,
+.fa-ellipsis-h,
+.fa-paperclip,
+.fa-search,
 .fa-edit,
 .fa-bell,
 .fa-bars,
@@ -742,14 +760,15 @@ span {
 
 
 .arrow-u .fa-arrow-up {
-    padding: 35%;
+    padding: 45%;
     background: #4e50b8;
     border-radius: 10%;
     color: #fff;
 }
 
-.bottom-icons .arrow-u {
-    margin-left: -34%;
+.arrow-u {
+    position: relative;
+    left: -5%;
 }
 
 .bottom-icons-msg input  {
@@ -759,7 +778,7 @@ span {
 }
 
 .arrow-left2 {
-    margin: 5%;
+    margin: 4%;
 }
 
 #message2 
@@ -769,7 +788,7 @@ span {
     font-size: larger;
     padding: 2%;
     margin: 2%;
-    padding-right: 50%;
+    width: inherit;
 
 } 
 
@@ -784,12 +803,24 @@ span {
 } 
 
 
-.desktop-bar {
+.desktop-bar, .desktop-bar2 {
     display: flex;
-    margin: auto 0;
+   
 }
 
-.main-msg{
+.desktop-bar .message-container2 {
+   width: max-content;
+    margin: 0;
+}
+
+/* .message-container2 form,
+.message-container2 label,
+.message-container2 input {
+    margin: 0;
+    padding: 0;
+} */
+
+.main-msg {
     border-top: 0.01em solid #eee;
     margin-right: 0;
 }
