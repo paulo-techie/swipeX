@@ -1,6 +1,8 @@
 @media only screen and (max-width: 800px) {
-
-    .desktop-msg-side, .bottom-msg2, .bottom-icons2, .desktop-bar2 {
+    .desktop-msg-side,
+    .bottom-msg2,
+    .bottom-icons2,
+    .desktop-bar2 {
         display: none !important;
     }
 }
@@ -289,7 +291,6 @@
     #message {
         height: 10% !important;
     }
-
 }
 
 * {
@@ -447,9 +448,10 @@ span {
 
 .main-msg {
     background: #eee;
-    border-top: 5px solid #fff;
-    margin: .5%;
+    margin: 0.5%;
     height: 88%;
+    border-top: 0.01em solid #eee;
+    margin-right: 0;
 }
 
 .msg-detail {
@@ -521,11 +523,6 @@ span {
     font-size: 300%;
 }
 
-.bottom-icons .fa-paperclip {
-    font-size: 300%;
-    padding: 0;
-    color: #ddd;
-}
 
 .fa-phone,
 .fa-ellipsis-h,
@@ -539,6 +536,13 @@ span {
     color: #aaa;
     margin: auto 2%;
 }
+
+.bottom-icons .fa-paperclip {
+    font-size: 300%;
+    padding: 0;
+    color: #ddd;
+}
+
 
 .fa-gift {
     margin: 2.5% 5%;
@@ -704,13 +708,14 @@ span {
     height: 88%;
 }
 
-.desktop-msg-side, 
+.desktop-msg-side,
 .bottom-icons-msg {
     display: flex;
     justify-content: space-between;
     background: #fefefe;
-    /* box-shadow:        
-    inset 0 -3em 3em #fafafa, 
+
+    /* box-shadow:
+    inset 0 -3em 3em #fafafa,
     0 0  0 2px #efefef,
     0.3em 0.3em 1em #eee; */
     height: 5%;
@@ -728,11 +733,11 @@ span {
 
 
 .side-bar-right {
-    border: .005em solid #efefef;
+    border: 0.005em solid #efefef;
     background: #fefefe;
     margin-left: -1%;
     padding: 0;
-
+    border-right: 1px solid white;
 }
 
 .bottom-icons2 {
@@ -740,20 +745,18 @@ span {
 }
 
 .bottom-icons2 i {
-
     padding: 12%;
     padding-top: 1.5%;
     padding-bottom: 1%;
     margin: 1%;
-
 }
 
 .fa-envelope-open-text {
     background: #4e50b8;
-    box-shadow:        
-    inset 0 -3em 3em #fafafa, 
-    0 0  0 2px #efefef,
-    0.3em 0.3em 1em #eee;
+    box-shadow:
+        inset 0 -3em 3em #fafafa,
+        0 0  0 2px #efefef,
+        0.3em 0.3em 1em #eee;
     border-radius: 0;
     height: 50%;
 }
@@ -771,7 +774,7 @@ span {
     left: -5%;
 }
 
-.bottom-icons-msg input  {
+.bottom-icons-msg input {
     font-size: larger;
     padding: 2%;
     border: 0;
@@ -781,50 +784,30 @@ span {
     margin: 4%;
 }
 
-#message2 
-{
+#message2 {
     border: 1px solid #ddd;
     color: #aaa;
     font-size: larger;
     padding: 2%;
     margin: 2%;
     width: inherit;
+}
 
-} 
-
-#message3
-{
+#message3 {
     border: 0;
     color: #aaa;
     font-size: larger;
     padding: 2%;
     margin: 2%;
+}
 
-} 
 
-
-.desktop-bar, .desktop-bar2 {
+.desktop-bar,
+.desktop-bar2 {
     display: flex;
-   
 }
 
 .desktop-bar .message-container2 {
-   width: max-content;
+    width: max-content;
     margin: 0;
-}
-
-/* .message-container2 form,
-.message-container2 label,
-.message-container2 input {
-    margin: 0;
-    padding: 0;
-} */
-
-.main-msg {
-    border-top: 0.01em solid #eee;
-    margin-right: 0;
-}
-
-.side-bar-right {
-    border-right: 1px solid white;
 }
